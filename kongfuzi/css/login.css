@@ -1,0 +1,74 @@
+ul,li,ol,dd,dt,dl,p,body,h1,h2,h3,h4,h5,h6{
+	margin:0;padding:0;
+}
+body,html{
+	font-family:"微软雅黑";
+	line-height: 1.5;
+	background:#fff;
+}
+a,s{
+	text-decoration:none;
+	color:#666;
+}
+ul,li,ol,dl,dt,dd{
+	list-style:none;
+}
+em,i{font-style: normal;}
+/* 版心1222px */
+.w{width:520px;margin:auto;}
+/* 全局fl 左浮动 */
+.fl{float:left;}
+/* 全局fr 右浮动 */
+.fr{float:right;}
+
+.login{
+    height:450px;
+    }
+.login-top{
+    width:520px;
+    height:80px;
+    border-bottom: 1px solid #ccc;
+    float:left;
+   }
+.login-top .logo{
+    width:230px;
+    height:35px;
+    margin-top:25px;}
+.login-box{
+    width:520px;
+    height:370px;
+    float:left;
+   margin-top:10px;
+   background:#f2f1ea;
+   padding:15px 0;
+}
+#login-info{
+    width:420px;
+    height:370px;
+    margin:0 auto;
+  }
+.user,.password,.checkbox-wrap{
+    width:416px;
+    height:60px;
+    margin-top:5px;
+    padding:3px;
+}
+.ok{
+    width:418px;
+    height:45px;
+    background:#8c222c;
+    border:none;
+    border-radius: 3px;
+    color:#fff;
+    font-size:20px;
+}
+.weixin{ 
+    width:417px;
+    height:65px;
+    margin-top:40px;
+}
+.weixin img{
+    width:40px;
+    height:40px;
+    margin:0 30px;
+}

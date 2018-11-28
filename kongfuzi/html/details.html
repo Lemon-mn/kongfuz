@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <link rel="stylesheet" href="../css/details.css"/>
+    <script src="../jquery.js"></script>
+</head>
+<body>
+    <!-- 快捷导航栏 -->
+<div class="header-one">
+        <div class="navbox w">
+            <span class=" info fl">
+                <a href="#">首页</a> 
+                <a href="#">书店区</a> 
+                <a href="#">书摊区</a> 
+                <a href="#">新书</a> 
+                <a href="#">在线拍卖</a> 
+                <a href="#">艺术品专场</a> 
+            </span>
+                <ul class="fr">
+                    <li class="login">
+                        <a class="noline" href="#">登录/注册</a>
+                        <ul>
+                            <li>                      
+                            <a href="login.html" target="_blank">登录</a>                               
+                            </li>
+                            <li>
+                            <a href="register.html" target="_blank">注册</a> 
+                            <li>
+                                <img class="icon" src="../img/icon-weixin.png"/>
+                                <img class="icon" src="../img/qq.png"/>
+                                <img class="icon" src="../img/weibo.png"/>
+                            </li> 
+                        </ul>
+                    </li>
+                    <li><a class="acolor" href="#">消息</a></li>
+                    <li class="show-common">
+                        <a class="acolor" href="#">
+                            购物车
+                        </a>
+                        <ul>
+                            <li>  <a href="#">你的购物车是空的</a></li>
+                            <li><a href="#">登录后可以同步购物车的商品哦</a></li>
+                            <li><button>登录</button></li>
+                        </ul>
+                    </li>
+                    <li><a class="acolor" href="#">我的订单</a></li>
+                    <li class="show-common">
+                        <a class="acolor" href="#">个人中心</a>
+                        <ul>
+                            <li>
+                                <span>店铺</span>
+                                <a href="#">我的订单</a>
+                                <a href="#">收藏</a>
+                            </li>                            
+                            <li>
+                                <span>拍卖</span>
+                                <a href="#">拍卖交易</a>
+                                <a href="#">我的竞拍</a>
+                                <a href="#">收藏</a>
+                            </li>                  
+                            <li><a href="#">我的好友</a></li>
+                            <li><a href="#">资金账户</a></li>
+                        </ul>
+                    </li>
+                    <li class="show-common">
+                        <a class="acolor" href="#">卖家中心</a>
+                        <ul>
+                            <li>
+                                <span>店铺</span>
+                                <a href="#">免费摆书摊</a>
+                                <a href="#">申请开店</a>
+                            </li>                            
+                            <li>
+                                <span>拍卖</span>
+                                <a href="#">申请拍卖会员</a>                             
+                        </ul>
+                    </li>
+                    <li class="show-common">
+                        <a class="noline" href="#">客服</a>
+                        <div class="help-inner">
+                            <button>帮助中心</button>
+                            <i>9:00-20:30</i>
+                            <button>在线帮助</button>
+                            <div class="kefucall-1">
+                                <p>客服电话 <i>(8:00-21:00)</i> </p>
+                                <p>010-62620698</p>
+                                <p>010-64755951</p>
+                            </div>
+                            <div class="kefucall-1">
+                                <p>纠纷处理<i>(9:00-18:00)</i></p>
+                                <p> 010-64726856</p>
+                            </div>
+                            <div class="kefucall-1"></div>
+                            <p>图书审核<i>(9:00-18:00)</i> </p>
+                            <p>010-62620918</p>
+                        
+                            <div class="kefucall-1">
+                                <em>客服qq</em>
+                                <em>监督与建议</em>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="show-list">
+                        <a class="acolor" href="#">手机版</a>
+                        <ul>
+                            <li>下载孔网app</li>                                                           
+                            <li> <img src="../img/app.png"/></li>
+                            <li>ios Android</li>
+                        </ul>
+                    </li>
+                    <li class="area">
+                        <a class="area-adress" href="#">送至:<i class="area-adress2">北京</i> </a>
+                        <div class="area-box">
+                            <div class="area-item">
+                                <span class="area-active">北京</span>
+                            </div>
+                            <div class="area-item"><span>上海</span></div>
+                            <div class="area-item"><span>天津</span></div>
+                            <div class="area-item"><span>重庆</span></div>
+                            <div class="area-item"><span>安徽</span></div>
+                            <div class="area-item"><span>福建</span></div>
+                            <div class="area-item"><span>甘肃</span></div>
+                            <div class="area-item"><span>广东</span></div>
+                            <div class="area-item"><span>广西</span></div>
+                            <div class="area-item"><span>贵州</span></div>
+                            <div class="area-item"><span>海南</span></div>
+                            <div class="area-item"><span>河北</span></div>
+                            <div class="area-item"><span>河南</span></div>
+                            <div class="area-item"><span>黑龙江</span></div>
+                            <div class="area-item"><span>湖北</span></div>
+                            <div class="area-item"><span>吉林</span></div>
+                            <div class="area-item"><span>江苏</span></div>
+                            <div class="area-item"><span>江西</span></div>
+                            <div class="area-item"><span>辽宁</span></div>
+                            <div class="area-item"><span>内蒙古</span></div>
+                            <div class="area-item"><span>宁夏</span></div>
+                            <div class="area-item"><span>青海</span></div>
+                            <div class="area-item"><span>山东</span></div>
+                            <div class="area-item"><span>陕西</span></div>
+                            <div class="area-item"><span>四川</span></div>
+                            <div class="area-item"><span>西藏</span></div>
+                            <div class="area-item"><span>云南</span></div>
+                            <div class="area-item"><span>浙江</span></div>
+                            <div class="area-item"><span>新疆</span></div>
+                            <div class="area-item"><span>山西</span></div>
+                            <div class="area-item"><span>湖南</span></div>
+                            <div class="area-item"><span>澳门</span></div>
+                            <div class="area-item"><span>香港</span></div>
+                            <div class="area-item"><span>台湾</span></div>
+                            <div class="area-item"><span>海外</span></div>
+                                                
+                        </div>
+                        
+                    </li>
+                    
+                </ul>
+            
+            </div>
+    </div>
+            
+    <!-- 搜索部分 -->
+<div class="header-two">
+    <div class="header-search w">
+            <img class="logo" src="../img/logo.png"/>
+    <div class="search-box fr">
+        <div class="search">
+            <input type="text">
+            <button>搜索</button>   
+        </div>
+        <div class="searcher">
+            <a href="#">高级搜索</a>
+        </div>
+        <div class="search-type">
+            <div class="item-type" type="shop">搜图书</div>
+            <div class="item-type" type="pm">搜拍卖</div>
+        </div>
+    </div>
+    </div>
+</div>       
+</header>
+<!-- 顶部结束 -->
+
+<section>
+    <div class="details w">   
+        <h1 class="details-title">繁花将尽</h1>
+        <div class="details-box">
+            <!-- 左侧 -->
+            <div class="details-box-l fl">
+                <!--这就是一个贴膜, 目标是让offset参照的元素统一 -->
+                <div class="mo"></div>
+                <img src="../img/book1.jpg"/>
+                <div class="frame"></div>
+            </div>
+            <div class="big">
+                <img src="../img/book1.jpg"/>
+            </div>
+
+            <!-- 中间 -->
+            <div class="details-box-r  fl">
+                <div class="details-box-r-top">
+                   <ul class="top-left fl">
+                        <li>作者: [美] 劳伦斯·布洛克 （Lawrence Block） 著 ； 尤传莉 译</li>
+                        <li>出版社: 新星出版社</li>
+                        <li>出版时间: 2010-11</li>
+                        <li>版次: 2</li>
+                        <li>ISBN: 9787513300476</li>
+                        <li>定价: 28.00</li>
+                        <li>装帧: 平装</li>
+                   </ul>
+                   <ul class="top-right fr">
+                        <li>开本: 32开</li>
+                        <li>纸张: 胶版纸</li>
+                        <li>页数: 336页</li>
+                        <li>字数: 172千字</li>
+                        <li>正文语种: 简体中文</li>
+                        <li>原版书名: All the Flowers Are Dying</li>
+                        <li>分类: 小说</li>
+                   </ul>
+                </div>
+                <div class="details-box-r-bottom">
+                    <div class="see-info">我是私家侦探，但没有执照；我爱漂亮女人，更爱烈酒波本；
+                        我不是正义的化身，更不想当救世主；我总会把用血换来的钱捐给教堂；
+                        但上帝始终把我抛弃；酒店关门之后，我无家可归；我叫马修，我是个酒鬼；
+                        今天，我无话可说。 劳伦斯·布洛克，享誉世界的美国侦探小说大师，
+                        当代硬汉派侦探小说最杰出的代表。他的小说不仅在美国备受推崇，还跨越大西洋，
+                        完全征服了自诩为侦探小说故乡的欧洲。
+                    </div>
+                    <a class="see"href="#">
+                        <img src="../img/dianji.png"/>
+                        查看详情
+                    </a>
+                    
+                    <div class="see-info1">
+                            <h5>内容简介:</h5>
+                            我是私家侦探，但没有执照；我爱漂亮女人，更爱烈酒波本；
+                            我不是正义的化身，更不想当救世主；
+                            我总会把用血换来的钱捐给教堂；但上帝始终把我抛弃；
+                            酒店关门之后，我无家可归；我叫马修，我是个酒鬼；
+                            今天，我无话可说。
+                    </div>
+                    <div class="see-info1">
+                            <h5>作者简介:</h5>
+                            劳伦斯·布洛克，享誉世界的美国侦探小说大师，当代硬汉派侦探小说最杰出的代表。他的小说不仅在美国备受推崇，还跨越大西洋，完全征服了自诩为侦探小说故乡的欧洲。
+                            侦探小说界最重要的两个奖项，爱伦·坡奖的终身成就奖和钻石匕首奖均肯定了劳伦斯·布洛克的大师地位。此外，他曾三次荣获爱伦·坡奖，两获马耳他之鹰奖，四获夏姆斯奖（后两个奖项都是重要的硬汉派侦探小说奖项）。
+                            劳伦斯·布洛克的作品主要包括以下四个系列：
+                            马修·斯卡德系列：以一名戒酒无执照的私人侦探为主角，
+                            雅贼系列：以一名中年小偷兼二手书店老板伯尼·罗登巴尔为主角；
+                            伊凡·谭纳系列：以一名朝鲜战争战期间遭炮击从此睡不着觉的侦探为主角。
+                            奇波·哈里森系列：以一名肥胖、不离开办公室的、自我陶醉的私人侦探为主角。
+                            此外，布洛克还著有杀手约翰·保罗·凯勒系列。
+                            劳伦斯·布洛克生于纽约布法罗，现居纽约，已婚，育有二女。
+                    </div>
+
+                </div>
+            </div>
+            <!-- 右侧 -->
+            <div class="details-last fl">
+                <div class="details-last-title">
+                    相关分类
+                </div>
+                <ul class="details-last-content">
+                    <li><a href="#">中国古典小说</a></li>
+                    <li><a href="#">中国现代小说（1919年-1949年）</a></li>
+                    <li><a href="#">中国当代小说（1949年以后）</a></li>
+                    <li><a href="#">四大名著</a></li>
+                    <li><a href="#">世界名著</a></li>
+                    <li><a href="#">外国小说</a></li>
+                    <li><a href="#">侦探/悬疑/推理</a></li>
+                    <li><a href="#">科幻</a></li>
+                    <li><a href="#">情感/家庭/婚姻</a></li>
+                    <li><a href="#">穿越/重生</a></li>
+                    <li><a href="#">武侠</a></li>
+                    <li><a href="#">惊悚/恐怖</a></li>
+                    <li><a href="#">魔幻/奇幻/玄幻</a></li>
+                    <li><a href="#">青春/影视</a></li>
+                    <li><a href="#">历史</a></li>
+                    <li><a href="#">官场</a></li>
+                </ul>
+            </div>
+        </div>
+
+<!-- 好书推荐 -->
+<div class="goodbook">
+<!-- 标题 -->
+<div class="booklist-title">
+    <span>好书推荐</span>
+    <i>/</i>
+    <a href="#">更多</a>
+</div>
+        <!-- 好书推荐内容 -->
+        <ul class="goodbook-layout">
+            <li> 
+                <a href="details.html" target="_blank">
+                    <img class="bookimg" src="../img/book1.jpg"/>  
+                </a>                                         
+                <p class="bookname">繁花将尽</p>
+                <p class="bookauthor">[美]劳伦斯·布洛克&nbsp;著</p>
+                <p class="bookprice">￥98.00<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book2.jpg"/>                       
+                <p class="bookname">战争与革命中的西南联大</p>
+                <p class="bookauthor">[美]易社强 著；饶&nbsp;&nbsp;著</p>
+                <p class="bookprice">￥98.00<i>起</i></p>
+                </li>
+                <li>                      
+                <img class="bookimg" src="../img/book3.jpg"/>                       
+                <p class="bookname">寒云藏书题跋辑释</p>
+                <p class="bookauthor">李红英 著&nbsp;&nbsp;著</p>
+                <p class="bookprice">￥199.00<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book4.jpg"/>                       
+                <p class="bookname">蓝衣社碎片</p>
+                <p class="bookauthor">丁三&nbsp;&nbsp;著</p>
+                <p class="bookprice">￥20.00<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book5.jpg"/>                       
+                <p class="bookname">1948：天地玄黄</p>
+                <p class="bookauthor">钱理群 著&nbsp;&nbsp;著</p>
+                <p class="bookprice">￥78.00<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book6.jpg"/>                       
+                <p class="bookname">花随人圣庵摭忆</p>
+                <p class="bookauthor">黄濬、李吉奎&nbsp;&nbsp;著</p>
+                <p class="bookprice">￥48.00<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book7.jpg"/>                       
+                <p class="bookname">江湖丛谈：注音注释典藏本</p>
+                <p class="bookauthor">连阔&nbsp;&nbsp;著</p>
+                <p class="bookprice">￥55.58<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book8.jpg"/>                       
+                <p class="bookname">老北京实用指南（套装全2册）</p>
+                <p class="bookauthor">徐珂 &nbsp;&nbsp;著</p>
+                <p class="bookprice">￥103.00<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book9.jpg"/>                       
+                <p class="bookname">开明国语课本（上下册）</p>
+                <p class="bookauthor">叶圣陶 编；丰子</p>
+                <p class="bookprice">￥1.00<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book10.jpg"/>                       
+                <p class="bookname">抗战时代生活史</p>
+                <p class="bookauthor">陈存仁 &nbsp;&nbsp;著</p>
+                <p class="bookprice">￥110.00<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book11.jpg"/>                       
+                <p class="bookname">民国诗学</p>
+                <p class="bookauthor">潘静如&nbsp;&nbsp;著</p>
+                <p class="bookprice">￥9.96<i>起</i></p>
+            </li>
+            <li>                      
+                <img class="bookimg" src="../img/book12.jpg"/>                       
+                <p class="bookname">民国风度</p>
+                <p class="bookauthor">徐百柯 &nbsp;&nbsp;著</p>
+                <p class="bookprice">￥3.80<i>起</i></p>
+            </li>
+
+        </ul>
+    
+    </div>
+</div>
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="../js/details.js"></script>
+</body>
+</html>
